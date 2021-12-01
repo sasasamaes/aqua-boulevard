@@ -6,3 +6,19 @@
 .master-img img {
   width: 90%;
 }
+
+.master-grid {
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.master-grid h3 {
+  font-size: 1.3rem;
+}
+.fondo4 {
+  padding: 0 !important;
+}
+.fondo4 img {
+  width: 100%;
+}
