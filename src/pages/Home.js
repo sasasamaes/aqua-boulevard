@@ -3,6 +3,7 @@ import Slider from '../components/Slider/Slider'
 import Form from '../components/Form/Form'
 
 import MasterPlan from '../components/MasterPlan/MasterPlan'
+import Amenities from '../components/Amenities/Amenities'
 
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -17,7 +18,8 @@ function Home() {
       <Row className="content">
         <Slider lg={9} />
         <Form lg={3} />
-        <MasterPlan />
+        <MasterPlan lg={12} />
+        <Amenities lg={12} />
       </Row>
     </Container>
   )
